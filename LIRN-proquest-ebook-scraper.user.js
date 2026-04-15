@@ -5,7 +5,7 @@
 // @downloadURL  https://raw.githubusercontent.com/gekkedev/LIRN-proquest-ebook-scraper/main/LIRN-proquest-ebook-scraper.user.js
 // @version      1.2
 // @description  Automatically downloads entire ebooks from LIRN ProQuest Ebook Central as a PDF, triggered by user action.
-// @match        https://ebookcentral-proquest-com.proxy.lirn.net/lib/*/reader.action?docID=
+// @match        https://ebookcentral.proquest.com/lib/auckland/reader.action
 // @match        https://*.proxy.lirn.net/lib/*/reader.action?docID=*
 // @match        https://*/*
 // @grant        GM_registerMenuCommand
