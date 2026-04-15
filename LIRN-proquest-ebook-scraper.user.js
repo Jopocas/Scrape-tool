@@ -1,17 +1,3 @@
-// ==UserScript==
-// @name         LIRN ProQuest Ebook Scraper
-// @namespace    https://github.com/gekkedev/LIRN-proquest-ebook-scraper
-// @updateURL    https://raw.githubusercontent.com/gekkedev/LIRN-proquest-ebook-scraper/main/LIRN-proquest-ebook-scraper.user.js
-// @downloadURL  https://raw.githubusercontent.com/gekkedev/LIRN-proquest-ebook-scraper/main/LIRN-proquest-ebook-scraper.user.js
-// @version      1.2
-// @description  Automatically downloads entire ebooks from LIRN ProQuest Ebook Central as a PDF, triggered by user action.
-// @match        ebookcentral.proquest.com/lib/auckland/reader.action
-// @grant        GM_registerMenuCommand
-// @grant        GM_notification
-//  @require     https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js
-// ==/UserScript==
-
-
 (function () {
   'use strict';
   const softwareTitle = "LIRN ProQuest Ebook Scraper";
